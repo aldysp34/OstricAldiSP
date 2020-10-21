@@ -1,0 +1,3 @@
+# OstricAldiSP
+
+Repository buat ostric
