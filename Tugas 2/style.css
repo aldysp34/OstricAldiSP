@@ -1,0 +1,327 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Main Code */
+
+.header-container{
+    width: auto;
+    height: 500px;
+    background-image: url(images/home\ page.png);
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+}
+
+.header-navbar{
+    height: 50px;
+    width: auto;
+    margin-left: 20px;
+}
+
+.logo{
+    font-size: 30px;
+    padding: 8px 10px 0 10px;
+    margin-left: 40px;
+    margin-top: 2px;
+    width: 127px;
+    float: left;
+}
+
+.logo a{
+    color: darkblue;
+    text-decoration: none;
+}
+
+.logo:hover{
+    opacity: 0.8;
+}
+
+.navigasi{
+    position: absolute;
+    left: 700px;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+.navigasi ul li{
+    display: inline-block;
+}
+
+.navigasi ul li a{
+    margin-right: 25px;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navigasi ul li a:hover{
+    font-weight: bold;
+}
+
+.main-header{
+    height: 250px;
+    width: 500px;
+    margin-top: 90px;
+}
+
+.main-header p{
+    padding-left: 200px;
+}
+
+.satu{
+    font-size: 45px;
+    color: white;
+}
+
+.dua{
+    font-size: 80px;
+    margin-left: 30px;
+    color: white;
+}
+
+.tiga{
+    font-size: 55px;
+    color: white;
+    margin-left: 15px;
+}
+
+.empat{
+    font-size: 15px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+.button-header{
+    text-align: center;
+    margin: 20px;
+}
+
+.button-header a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(229, 181, 135);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.button-header a:hover{
+    opacity: 0.8;
+}
+
+.main-content-container{
+    width: auto;
+}
+
+.header-content{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.header-content p{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content1{
+    padding-left: 150px;
+    padding-bottom: 50px;
+}   
+
+.kiri1{
+    margin-top: 20px;
+    margin-left: 90px;
+    border-left: 2px solid darkblue;
+    padding-left: 40px;
+    padding-bottom: 15px;
+    float: left;
+}
+.kiri1 .kata1{
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+.kiri1 .kata2{
+    width: 280px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.button-main1{
+    margin-top: 35px;
+}
+
+.button-main1 a{
+    font-size: 25px;
+    background-color: rgb(229, 181, 135);
+    color: white;
+    padding: 15px 25px 15px 25px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+.button-main1 a:hover{
+    opacity: 0.8;
+}
+
+.kanan1 img{
+    height: 320px;
+    width: 500px;
+    float: right;
+    margin-right: 80px;
+}
+
+.content2{
+    padding-left: 150px;
+    padding-bottom: 50px;
+}   
+
+.kiri2{
+    margin-top: 20px;
+    margin-left: 90px;
+    border-left: 2px solid darkblue;
+    padding-left: 40px;
+    padding-bottom: 15px;
+    float: left;
+}
+.kiri2 .kata1{
+    width: 350px;
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+.kiri2 .kata2{
+    width: 280px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.button-main2{
+    margin-top: 35px;
+}
+
+.button-main2 a{
+    font-size: 25px;
+    background-color: rgb(229, 181, 135);
+    color: white;
+    padding: 15px 25px 15px 25px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+.button-main2 a:hover{
+    opacity: 0.8;
+}
+
+.kanan2 img{
+    height: 320px;
+    width: 500px;
+    float: right;
+    margin-right: 80px;
+}
+
+.content3{
+    text-align: center;
+    margin-top: 70px;
+    padding-bottom: 100px;
+}
+
+.content3 .kata1{
+    font-size: 45px;
+    color: rgb(62, 84, 153);
+    margin-bottom: 35px;
+}
+
+.content3 .kata2{
+    font-size: 35px;
+    margin-bottom: 20px;
+    width: 750px;
+    margin-left: 23%;
+    color: rgb(62, 84, 153);
+}
+
+.content3 .kata3{
+    font-size: 20px;
+    color: rgb(62, 84, 153);
+}
+
+.footer{
+    height: 30px;
+    text-align: center;
+    color: white;
+    background-color: darkblue;
+    padding-top: 20px;
+}
+
+.footer .kata1{
+    float: left;
+    margin-left: 35%;
+}
+
+.footer .kata2{
+    float: right;
+    margin-right: 30%;
+}
+
+
+
+/* Clear Fix Float */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
